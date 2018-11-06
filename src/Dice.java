@@ -6,13 +6,13 @@ public class Dice {
         public Dice(int sides){
             this.sides=sides;
 
-            //help me jk
+
         }
 
         // roll the die and return the value (1-6)
         public int roll() {
             int d1 = (int)(Math.random() * sides + 1);
-            return d1;
+            return d1
         }
 
         // roll the die n times and print the values
