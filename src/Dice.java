@@ -6,7 +6,7 @@ public class Dice {
         public Dice(int sides){
             this.sides=sides;
 
-
+            //hej
         }
 
         // roll the die and return the value (1-6)
