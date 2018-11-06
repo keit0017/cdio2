@@ -10,7 +10,7 @@ public class Main {
     Language lang = new Language();
     Scanner scan = new Scanner(System.in);
 
-        System.out.print("Vælg 1 for dansk eller vælg 2 for engelsk: ");
+        System.out.print("Choose 1 if you want the language to be in danish or choose 2 for english: ");
 
         while (!lang_factor) {
             language = scan.nextInt();
@@ -22,7 +22,7 @@ public class Main {
                 lang.chooseLang(language);
                 lang_factor = true;
             } else {
-                System.out.println("Dette er ikke gyldigt. Vælg enten 1 for dansk eller 2 for engelsk.");
+                System.out.println("This is not a valid answer. Please choose 1 for danish or 2 for english");
 
             }
         }
