@@ -20,4 +20,10 @@ public class Language {
         }
         reader.close();
     }
+
+    public String message(int msgNumber)
+    {
+        String str = messages[msgNumber];
+        return str;
+    }
 }
