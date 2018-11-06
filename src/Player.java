@@ -1,4 +1,6 @@
 public class Player {
+
+    //int for amount of money in account
     private int points= 0;
 
     public int addPoints(int added){
