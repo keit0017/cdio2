@@ -1,7 +1,7 @@
 public class Player {
-    int points= 0;
+    private int points= 0;
 
-    public int addpoints(int added){
+    public int addPoints(int added){
         points+=added;
         return points;
     }
@@ -10,12 +10,12 @@ public class Player {
         return points;
     }
 
-    public int subtractpoints(int removed){
+    public int subtractPoints(int removed){
         points-=removed;
         return points;
     }
 
-    public int restartpoints(){
+    public int restartPoints(){
         points=0;
         return points;
     }
