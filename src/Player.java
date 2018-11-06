@@ -1,7 +1,7 @@
 public class Player {
 
     //int for amount of money in account
-    private int points= 0;
+    private int points= 1000;
 
     public int addPoints(int added){
         points+=added;
@@ -18,7 +18,7 @@ public class Player {
     }
 
     public int restartPoints(){
-        points=0;
+        points=1000;
         return points;
     }
 
