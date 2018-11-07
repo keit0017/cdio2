@@ -13,8 +13,14 @@ public class Language {
     }
 
     public void chooseLang(int choice) throws IOException {
+        int lang = 0;
+        if (choice == 2)
+        {
+            lang = 20;
+        }
+
         BufferedReader reader = new BufferedReader(new FileReader(file));
-        for (int i = 0; i < messages.length; i++)
+        for (int i = (0 + lang); i < (messages.length + lang); i++)
         {
             messages[i] = reader.readLine();
         }

@@ -1,34 +1,33 @@
 public class FieldList {
 
-    private Dice D1;
-    private Dice D2;
-
-    public FieldList()
+    public int field(int result)
     {
-        Dice d1 = new Dice(6);
-        Dice d2 = new Dice(6);
-        D1 = d1;
-        D2 = d2;
-    }
-
-    public String field()
-    {
-        int result = D1.roll() + D2.roll();
-
+        int field = 0;
         switch (result)
         {
-            case 2:break;
-            case 3:break;
-            case 4:break;
-            case 5:break;
-            case 6:break;
-            case 7:break;
-            case 8:break;
-            case 9:break;
-            case 10:break;
-            case 11:break;
-            case 12:break;
+            case 2: field = 250;
+                break;
+            case 3: field = -100;
+                break;
+            case 4: field = 100;
+                break;
+            case 5: field = -20;
+                break;
+            case 6: field = 180;
+                break;
+            case 7: field = 0;
+                break;
+            case 8: field = -70;
+                break;
+            case 9: field = 60;
+                break;
+            case 10: field = -80;
+                break;
+            case 11: field = -50;
+                break;
+            case 12: field = 650;
+                break;
         }
-
+        return field;
     }
 }
