@@ -31,10 +31,10 @@ public class Main {
         while (!choosegamertag){
             System.out.print("");
             gamertag1 = scan.nextLine();
-            Gamer player1 = new Gamer((gamertag1));
+            Player player1 = new Player((gamertag1));
             System.out.println("");
             gamertag2 = scan.nextLine();
-            Gamer player2 = new Gamer((gamertag2));
+            Player player2 = new Player((gamertag2));
             choosegamertag = true;
         }
         while (game){

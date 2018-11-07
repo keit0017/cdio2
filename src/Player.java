@@ -1,8 +1,8 @@
-public class Gamer {
+public class Player {
 
     private String gamertag;
 
-    public Gamer(String gamertag){
+    public Player(String gamertag){
         this.gamertag=gamertag;
 
     }
