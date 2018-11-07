@@ -1,5 +1,6 @@
 public class Account {
 
+
     //int for amount of money in account
     private int points= 1000;
 
