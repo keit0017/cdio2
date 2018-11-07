@@ -3,8 +3,9 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class Language {
-    private String[] messages = new String[10];
+    private String[] messages = new String[15];
     private String file;
+    private int langChoice = 0;
 
     public Language()
     {
@@ -13,14 +14,13 @@ public class Language {
     }
 
     public void chooseLang(int choice) throws IOException {
-        int lang = 0;
         if (choice == 2)
         {
-            lang = 20;
+            langChoice = 20;
         }
 
         BufferedReader reader = new BufferedReader(new FileReader(file));
-        for (int i = (0 + lang); i < (messages.length + lang); i++)
+        for (int i = (0 + langChoice); i < (messages.length + langChoice); i++)
         {
             messages[i] = reader.readLine();
         }
@@ -29,6 +29,7 @@ public class Language {
 
     public String message(int msgNumber)
     {
+        msgNumber += langChoice;
         String str = messages[msgNumber];
         return str;
     }
