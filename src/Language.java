@@ -3,7 +3,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class Language {
-    private String[] messages = new String[15];
+    private String[] messages = new String[16];
     private String file;
     private int langChoice = 0;
 
