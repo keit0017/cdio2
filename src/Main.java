@@ -39,7 +39,7 @@ public class Main {
 
         while (game){
 
-            System.out.print("indsæt tekstfil");
+            System.out.print(lang.message(1));
             gaming = scan.nextInt();
 
         }
