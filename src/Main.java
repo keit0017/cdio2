@@ -59,13 +59,15 @@ public class Main {
             System.out.println(lang.message(result));
             if (turn % 2 != 0) {
                 account1.addPoints(fieldList.field(result));
-                System.out.println(account1.getPoints());
+                System.out.println(player1.toString()+": "+account1.getPoints()+" points");
             } else {
                 account2.addPoints(fieldList.field(result));
-                System.out.println(account2.getPoints());
+                System.out.println(player2.toString()+": "+account2.getPoints()+" points");
             }
             if (result == 10) {
+               roll = true;
                 while (roll) {
+                    System.out.print(lang.message(1));
                     gaming = scan.nextInt();
                     if (gaming == 1) {
                         result = d1.roll() + d2.roll();
@@ -78,18 +80,23 @@ public class Main {
                 System.out.println(lang.message(result));
                 if (turn % 2 != 0) {
                     account1.addPoints(fieldList.field(result));
-                    System.out.println(account1.getPoints());
+                    System.out.println(player1.toString()+": "+account1.getPoints()+" points");
                 } else {
                     account2.addPoints(fieldList.field(result));
-                    System.out.println(account2.getPoints());
+                    System.out.println(player2.toString()+": "+account2.getPoints()+" points");
 
                 }
             }
                 roll = true;
                 turn++;
-                if (account1.getPoints() == 3000 || account2.getPoints() == 3000) {
+                if (account1.getPoints() >= 3000) {
+                    System.out.println(player1.toString()+lang.message(14));
+                    game = false;
+                } else if (account2.getPoints() >= 3000){
+                    System.out.println(player2.toString()+lang.message(14));
                     game = false;
                 }
+
 
 
         }
