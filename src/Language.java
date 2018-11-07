@@ -1,5 +1,6 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.IOException;
 
 public class Language {
     private String[] messages = new String[10];
@@ -11,8 +12,7 @@ public class Language {
         this.file = file;
     }
 
-    public void chooseLang(int choice)
-    {
+    public void chooseLang(int choice) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader(file));
         for (int i = 0; i < messages.length; i++)
         {
