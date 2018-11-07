@@ -1,15 +1,16 @@
-(1) Empty
+(1) Tryk 1 for at kaste terninger:
 (2) Du finder et tårn fyldt med gamle vinylplader. Du sampler dem og (3) laver hit sange ud af dem. Du tjener 250 SwagPoints.
-(4) Du falder ned fra scenen og ned i krateret og mister 100 SwagPoints.
-(5) Tupac lukker dig ind i paladset og giver dig 100 SwagPoints.
-(6)
-(7)
-(8)
-(9)
-(10)
-(11)
-(12)
-(13)
+(3) Du falder ned fra scenen og ned i krateret og mister 100 SwagPoints.
+(4) Tupac lukker dig ind i paladset og giver dig 100 SwagPoints.
+(5) Ingen møder op til dit show og det føles som en kold ørken. Du mister 20 SwagPoints.
+(6) Dit nye hit "Walled City" slår igennem. Du får 180 SwagPoints.
+(7) Dit nye album "Monastery" sælger lige præcis nok til at dække udgifterne. Du får ingen SwagPoints.
+(8) Du går ind i en Black Cave aka mørk gyde og bliver tæsket. Din kæde bliver stjålet og du mister 70 SwagPoints.
+(9) Du får et nyt hut in the mountain ved siden af Kanye i Wyoming. Du får 60 SwagPoints.
+(10) Du rapbattler ved The Werewall og glemmer dine linjer. Du mister 80 SwagPoints men får en chance til.
+(11) Du crowdsurfer men ingen griber dig. Du mister 50 SwagPoints.
+(12) Din nye single går Guld på første dag. Du får 650 SwagPoints.
+(13) Ugyldigt svar. Tryk 1 for at kaste terninger:
 (14)
 (15)
 (16)
