@@ -5,11 +5,13 @@ public class Main {
     public static void main(String[] args) {
 
     int language;
+    int gaming;
+    String gamertag1, gamertag2;
+    boolean choosegamertag = false;
     boolean lang_factor = false;
     boolean game = true;
     Language lang = new Language();
     Scanner scan = new Scanner(System.in);
-
         System.out.print("Choose 1 if you want the language to be in danish or choose 2 for english: ");
 
         while (!lang_factor) {
@@ -26,7 +28,19 @@ public class Main {
 
             }
         }
+        while (!choosegamertag){
+            System.out.print("");
+            gamertag1 = scan.nextLine();
+            Gamer player1 = new Gamer((gamertag1));
+            System.out.println("");
+            gamertag2 = scan.nextLine();
+            Gamer player2 = new Gamer((gamertag2));
+            choosegamertag = true;
+        }
         while (game){
+
+            System.out.print("indsæt tekstfil");
+            gaming = scan.nextInt();
 
         }
     }
