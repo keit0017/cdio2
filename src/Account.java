@@ -6,6 +6,10 @@ public class Account {
 
     public int addPoints(int added){
         points+=added;
+        if (points < 0)
+        {
+            points = 0;
+        }
         return points;
     }
 
