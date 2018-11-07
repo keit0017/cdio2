@@ -29,6 +29,7 @@ public class Language {
 
     public String message(int msgNumber)
     {
+        msgNumber -= 1;
         msgNumber += langChoice;
         String str = messages[msgNumber];
         return str;
