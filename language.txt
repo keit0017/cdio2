@@ -11,7 +11,7 @@
 (11) Du crowdsurfer men ingen griber dig. Du mister 50 SwagPoints.
 (12) Din nye single går Guld på første dag. Du får 650 SwagPoints.
 (13) Ugyldigt svar. Tryk 1 for at kaste terninger:
-(14)
+(14) Empty
 (15)
 (16)
 (17) Empty
