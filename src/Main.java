@@ -84,12 +84,13 @@ public class Main {
                     System.out.println(account2.getPoints());
 
                 }
+            }
                 roll = true;
                 turn++;
                 if (account1.getPoints() == 3000 || account2.getPoints() == 3000) {
                     game = false;
                 }
-            }
+
 
         }
     }
