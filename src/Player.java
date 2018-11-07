@@ -8,7 +8,7 @@ public class Player {
     }
 
     public String turn(){
-        return ""+gamertag;
+        return "Din tur"+gamertag;
     }
 
     public String toString() {
