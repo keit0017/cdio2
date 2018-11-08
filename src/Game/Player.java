@@ -1,3 +1,5 @@
+package Game;
+
 public class Player {
 
     private String gamertag;
