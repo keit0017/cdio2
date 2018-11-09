@@ -1,0 +1,35 @@
+Tryk 1 for at kaste terninger:
+(2) Tower: Du finder et tårn fyldt med gamle vinylplader. Du sampler dem og laver hit sange ud af dem. Du tjener 250 SwagPoints.
+(3) Crater: Du falder ned fra scenen og ned i krateret og mister 100 SwagPoints.
+(4) Palace Gates: Tupac lukker dig ind i paladset og giver dig 100 SwagPoints.
+(5) Cold Desert: Ingen møder op til dit show og det føles som en kold ørken. Du mister 20 SwagPoints.
+(6) Walled City: Dit nye hit "Walled City" slår igennem. Du får 180 SwagPoints.
+(7) Monastery: Dit nye album "Monastery" sælger lige præcis nok til at dække udgifterne. Du får ingen SwagPoints.
+(8) Black cave: Du går ind i en Black Cave aka mørk gyde og bliver tæsket. Din kæde bliver stjålet og du mister 70 SwagPoints.
+(9) Huts in the mountain: Du får et nyt hut in the mountain ved siden af Kanye i Wyoming. Du får 60 SwagPoints.
+(10) The Werewall: Du rapbattler ved The Werewall og glemmer dine linjer. Du mister 80 SwagPoints men får en chance til.
+(11) The pit: Du crowdsurfer men ingen griber dig. Du mister 50 SwagPoints.
+(12) Goldmine: Din nye single går Guld på første dag. Du får 650 SwagPoints.
+Ugyldigt svar. Tryk 1 for at kaste terninger:
+har vundet.
+Navngiv spiller:
+(16) Empty
+(17) Empty
+(18) Empty
+(19) Empty
+(20) Empty
+Press 1 to throw dice:
+(2) Tower: You discover a tower filled with old vinyl records. You sample them and make a hit song. You earn 250 SwagPoints.
+(3) Crater: You fall down from the stage and into a crater. You lose 100 SwagPoints.
+(4) Palace Gates: Tupac lets you inside the palace and gives you 100 SwagPoints.
+(5) Cold Desert: Nobody shows up for your show and it feels like a cold desert. You lose 20 SwagPoints.
+(6) Walled City: Your new song "Walled City" is a hit. You earn 180 SwagPoints.
+(7) Monastery: Your new album "Monastery" doesn't make a profit. You get no SwagPoints.
+(8) Black cave: You enter a black cave aka a dark alley and you get beat up. Your chain gets snatched and you lose 70 SwagPoints.
+(9) Huts in the mountain: You buy a new hut in the mountain next to Kanye in Wyoming. You earn 60 SwagPoints.
+(10) The Werewall: You rapbattle at The Werewall and forget your lyrics. You lose 80 SwagPoints but get another shot.
+(11) The pit: You crowdsurf but no one catches you. You lose 50 SwagPoints.
+(12) Goldmine: Your new singles reaches Gold on the first day. You earn 650 SwagPoints.
+Invalid answer. Press 1 to throw dice:
+wins.
+Enter player name:

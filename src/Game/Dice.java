@@ -1,3 +1,5 @@
+package Game;
+
 public class Dice {
 
     private int sides;
@@ -5,6 +7,7 @@ public class Dice {
         //constructor to choose the amount of sides of the die
         public Dice(int sides){
             this.sides=sides;
+
 
         }
 

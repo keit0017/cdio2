@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/cdio.iml" filepath="$PROJECT_DIR$/cdio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cdio2.iml" filepath="$PROJECT_DIR$/cdio2.iml" />
     </modules>
   </component>
 </project>
