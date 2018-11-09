@@ -11,7 +11,7 @@ public class Language {
     String file to hold the .txt file.
     int langChoice to choose between languages.
      */
-    private String[] messages = new String[34];
+    private String[] messages = new String[35];
     private String file;
     private int langChoice = 0;
 
