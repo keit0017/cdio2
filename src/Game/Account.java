@@ -19,10 +19,6 @@ public class Account {
         return points;
     }
 
-    public int subtractPoints(int removed){
-        points-=removed;
-        return points;
-    }
 
     public int restartPoints(){
         points=1000;
