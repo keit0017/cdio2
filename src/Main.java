@@ -19,7 +19,7 @@ public class Main {
         FieldList fieldList = new FieldList();
 
         System.out.print("vælg 1 for dansk:  choose 2 for english: ");
-
+// A while loop that makes it possible for the user to choose a language. Uses a method from our Language class.
         while (!lang_factor) {
             language = scan.nextInt();
             scan.nextLine();
@@ -34,7 +34,7 @@ public class Main {
 
             }
         }
-
+//Creates two player objects. The user names the objects by using the scanner.
         System.out.print("navngiv spiller 1: ");
         String name = scan.nextLine();
         Account account1 = new Account();
@@ -43,6 +43,8 @@ public class Main {
         name = scan.nextLine();
         Account account2 = new Account();
         Player player2 = new Player(name);
+
+// The game loop. Rolls the dice and puts it into the result variable.
 
         while (game) {
             System.out.print(lang.message(1));
@@ -56,14 +58,19 @@ public class Main {
 
                 }
             }
+            // Uses the result in Language methods, to print out the messages that belongs to the different fields.
+            // The fieldlist also uses the result variable so we can add/substract the correct amount of points to an account
+            //the fieldlist method is inside of the add points to an account method, from the Account class.
             System.out.println(lang.message(result));
-            if (turn % 2 != 0) {
+            if (turn % 2 != 0) { // The system divides turn by 2 and if the rest is anything but zero, it's player 1's turn.
+                                // otherwise it's player 2's turn.
                 account1.addPoints(fieldList.field(result));
                 System.out.println(player1.toString()+": "+account1.getPoints()+" points");
             } else {
                 account2.addPoints(fieldList.field(result));
                 System.out.println(player2.toString()+": "+account2.getPoints()+" points");
             }
+            // if result = 10 then the user gets an extra turn. We run dice roll, message printout and add points method again
             if (result == 10) {
                roll = true;
                 while (roll) {
@@ -87,8 +94,9 @@ public class Main {
 
                 }
             }
-                roll = true;
-                turn++;
+                roll = true; // roll is set to true again, so the while loop can continue.
+                turn++; // we add 1 to turn. It makes the system able to switch between the two players.
+            // the win condition. If one of the accounts = 3000 that player wins.
                 if (account1.getPoints() >= 3000) {
                     System.out.println(player1.toString()+lang.message(14));
 

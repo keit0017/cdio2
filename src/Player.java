@@ -2,13 +2,11 @@ public class Player {
 
     private String gamertag;
 
+    // Constructor of the player.
+
     public Player(String gamertag){
         this.gamertag=gamertag;
 
-    }
-
-    public String turn(){
-        return "Din tur"+gamertag;
     }
 
     public String toString() {
