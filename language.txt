@@ -12,25 +12,23 @@
 (12) Goldmine: Din nye single går Guld på første dag. Du får 650 SwagPoints.
 (13) Ugyldigt svar. Tryk 1 for at kaste terninger:
 (14) har vundet.
-(15)
-(16)
+(15) Empty
+(16) Empty
 (17) Empty
 (18) Empty
 (19) Empty
-(20)
-(21)
-(22)
-(23)
-(24)
-(25)
-(26)
-(27)
-(28)
-(29)
-(30)
-(31)
-(32)
-(33)
-(34)
-(35)
-(36)
+(20) Empty
+(21) Press 1 to throw dice.
+(22) Tower: You discover a tower filled with old vinyl records. You sample them and make a hit song. You earn 250 SwagPoints.
+(23) Crater: You fall down from the stage and into a crater. You lose 100 SwagPoints.
+(24) Palace Gates: Tupac lets you inside the palace and gives you 100 SwagPoints.
+(25) Cold Desert: Nobody shows up for your show and it feels like a cold desert. You lose 20 SwagPoints.
+(26) Walled City: Your new song "Walled City" is a hit. You earn 180 SwagPoints.
+(27) Monastery: Your new album "Monastery" doesn't make a profit. You get no SwagPoints.
+(28) Black cave: You enter a black cave aka a dark alley and you get beat up. Your chain gets snatched and you lose 70 SwagPoints.
+(29) Huts in the mountain: You buy a new hut in the mountain next to Kanye in Wyoming. You earn 60 SwagPoints.
+(30) The Werewall: You rapbattle at The Werewall and forget your lyrics. You lose 80 SwagPoints but get another shot.
+(31) The pit: You crowdsurf but no one catches you. You lose 50 SwagPoints.
+(32) Goldmine: Your new singles reaches Gold on the first day. You earn 650 SwagPoints.
+(33) Invalid answer. Press 1 to throw dice.
+(34) has won.
