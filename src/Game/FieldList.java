@@ -1,3 +1,5 @@
+package Game;
+
 public class FieldList {
 
     public int field(int result)
