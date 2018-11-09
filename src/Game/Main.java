@@ -101,9 +101,11 @@ public class Main {
             // the win condition. If one of the accounts = 3000 that player wins.
                 if (account1.getPoints() >= 3000) {
                     System.out.println(player1.toString()+lang.message(14));
+                    game = false;
 
                 } else if (account2.getPoints() >= 3000){
                     System.out.println(player2.toString()+lang.message(14));
+                    game = false;
                 }
 
 
