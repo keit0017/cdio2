@@ -2,6 +2,10 @@ package Game;
 
 public class FieldList {
 
+    /*
+    The FieldList manages the values to be added or subtracted from the players account,
+    depending on the result of the two Dice rolls.
+     */
     public int field(int result)
     {
         int field = 0;
