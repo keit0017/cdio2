@@ -1,4 +1,4 @@
-(1) Tryk 1 for at kaste terninger:
+Tryk 1 for at kaste terninger:
 (2) Tower: Du finder et tårn fyldt med gamle vinylplader. Du sampler dem og laver hit sange ud af dem. Du tjener 250 SwagPoints.
 (3) Crater: Du falder ned fra scenen og ned i krateret og mister 100 SwagPoints.
 (4) Palace Gates: Tupac lukker dig ind i paladset og giver dig 100 SwagPoints.
@@ -10,15 +10,15 @@
 (10) The Werewall: Du rapbattler ved The Werewall og glemmer dine linjer. Du mister 80 SwagPoints men får en chance til.
 (11) The pit: Du crowdsurfer men ingen griber dig. Du mister 50 SwagPoints.
 (12) Goldmine: Din nye single går Guld på første dag. Du får 650 SwagPoints.
-(13) Ugyldigt svar. Tryk 1 for at kaste terninger:
-(14) har vundet.
+Ugyldigt svar. Tryk 1 for at kaste terninger:
+har vundet.
 (15) Empty
 (16) Empty
 (17) Empty
 (18) Empty
 (19) Empty
 (20) Empty
-(21) Press 1 to throw dice.
+Press 1 to throw dice.
 (22) Tower: You discover a tower filled with old vinyl records. You sample them and make a hit song. You earn 250 SwagPoints.
 (23) Crater: You fall down from the stage and into a crater. You lose 100 SwagPoints.
 (24) Palace Gates: Tupac lets you inside the palace and gives you 100 SwagPoints.
@@ -30,5 +30,5 @@
 (30) The Werewall: You rapbattle at The Werewall and forget your lyrics. You lose 80 SwagPoints but get another shot.
 (31) The pit: You crowdsurf but no one catches you. You lose 50 SwagPoints.
 (32) Goldmine: Your new singles reaches Gold on the first day. You earn 650 SwagPoints.
-(33) Invalid answer. Press 1 to throw dice.
-(34) has won.
+Invalid answer. Press 1 to throw dice.
+wins.

@@ -11,7 +11,7 @@ public class Language {
     String file to hold the .txt file.
     int langChoice to choose between languages.
      */
-    private String[] messages = new String[16];
+    private String[] messages = new String[34];
     private String file;
     private int langChoice = 0;
 
@@ -30,7 +30,7 @@ public class Language {
         }
 
         BufferedReader reader = new BufferedReader(new FileReader(file));
-        for (int i = (0 + langChoice); i < (messages.length + langChoice); i++)
+        for (int i = 0; i < messages.length; i++)
         {
             messages[i] = reader.readLine();
         }
